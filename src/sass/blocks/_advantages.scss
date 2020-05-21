@@ -1,0 +1,39 @@
+.advantages {
+    background-color: #fff;
+    padding: 81px 0 80px 0;
+    .title-black {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #393939;
+        text-align: center;
+    }
+    .block {
+        margin-top: 44px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__text {
+            bottom: 0;
+            position: relative;
+            margin: 0;
+            bottom: 0;
+        }
+        &__img {
+            display: block;
+            margin: 0;
+        }
+        &__second {
+            position: absolute;
+            display: block;
+            text-align: center;
+            top: 34%;
+            left: 0;
+            right: 0;
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+    }
+}

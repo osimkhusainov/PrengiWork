@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+    .countries {
+        padding-left: 20px;
+        padding-right: 20px;
+        &__main {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+        }
+        &__descr {
+            margin-left: 0;
+        }
+    }
+    .menu {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .countries {
+        &__link {
+            font-size: 10px;
+        }
+    }
+    .menu {
+        min-height: 600px;
+        .navbar {
+            li {
+                padding: 0 10px 0 10px;
+            }
+        }
+        &__phone {
+            top: -100px;
+            img {
+                width: 350px;
+            }
+
+        }
+        &__title {
+            font-size: 27px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+        .button {
+            margin-top: 5px;
+            height: 50px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .countries {
+        display: none;
+    }
+}

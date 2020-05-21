@@ -1,0 +1,35 @@
+.database {
+    background: url(../../img/bg4.png) center (center/cover) no-repeat;
+    padding: 79px 0 220px 0;
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #ffffff;
+        text-align: center;
+    }
+    .cloud-server {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 128px;
+        &__cloud {
+            text-align: right;
+            margin-right: 186px;
+        }
+        &__header {
+            font-size: 30px;
+            line-height: 22px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        &__subheader {
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+
+}

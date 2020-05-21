@@ -1,0 +1,28 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/buttons';
+@import 'blocks/media';
+@import "blocks/prengi";
+@import 'blocks/tabs';
+@import 'blocks/advantages';
+@import 'blocks/database';
+@import 'blocks/start';
+@import 'blocks/footer';
